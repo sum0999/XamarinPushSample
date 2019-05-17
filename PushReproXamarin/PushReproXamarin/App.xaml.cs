@@ -1,6 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microsoft.AppCenter;
+
+using Microsoft.AppCenter.Push;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace PushReproXamarin
@@ -12,6 +15,9 @@ namespace PushReproXamarin
             InitializeComponent();
 
             MainPage = new MainPage();
+
+            AppCenter.LogLevel = LogLevel.Verbose;
+            AppCenter.Start("b7bb984b-57d1-4183-be43-0dcb4021e61e;", typeof(Push));            
         }
 
         protected override void OnStart()
