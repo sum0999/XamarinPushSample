@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1082230091165",
-    "firebase_url": "https://appcenterpush-38f6b.firebaseio.com",
-    "project_id": "appcenterpush-38f6b",
-    "storage_bucket": "appcenterpush-38f6b.appspot.com"
+    "project_number": "",
+    "firebase_url": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1082230091165:android:a08559b4f475560e",
+        "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "com.vsac.appcentersum"
+          "package_name": ""
         }
       },
       "oauth_client": [
         {
-          "client_id": "1082230091165-sko1c2qn2l60fol0os9l03lvd2rasijh.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCZEyVnUcB0zK8OYvgECkKvA1Ur_uNBtsM"
+          "current_key": "This is a 39 character key for me"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1082230091165-sko1c2qn2l60fol0os9l03lvd2rasijh.apps.googleusercontent.com",
+              "client_id": "",
               "client_type": 3
             }
           ]
