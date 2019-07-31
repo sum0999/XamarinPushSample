@@ -17,7 +17,8 @@ namespace PushReproXamarin
             MainPage = new MainPage();
 
             AppCenter.LogLevel = LogLevel.Verbose;
-            AppCenter.Start("", typeof(Push));            
+            AppCenter.Start("", typeof(Push));  
+            AppCenter.SetUserId("YOUR_USER_ID_HERE");
         }
 
         protected override void OnStart()
